@@ -1,0 +1,142 @@
+
+.header{
+	font-size: 80px;
+	font-family: "Algerian";
+	background: linear-gradient(0deg, rgba(216,251,83,1) 0%, rgba(45,253,191,1) 61%);
+	border-width: 50px;
+	text-align: center;
+}
+.navigation{
+	color: #black;
+    text-decoration: none;
+	font-size: 30px;
+	font-color: black;
+	font-family: "Elephant";
+	background: linear-gradient(0deg, rgba(255,63,63,1) 0%, rgba(255,182,182,1) 38%, rgba(254,255,135,1) 64%);
+	border-width: 10px;
+	text-align: center;
+}
+.navigation:hover{
+	color: blue; 
+    text-decoration-color: blue; 
+    cursor:pointer;
+} 
+.Paragraph{
+	background: linear-gradient(0deg, rgba(255,63,63,1) 10%, rgba(181,135,255,1) 93%);
+	float: left;
+  	width: 33.33%;
+  	height: 300px;
+  	align-content: left;
+  	padding-top: 10px;
+  	font-family: lucida calligraphy;
+}
+.Description{
+	background: linear-gradient(0deg, rgba(255,63,63,1) 10%, rgba(181,135,255,1) 93%);
+	align-content: center;
+	font-family: Matura MT Script Capitals;
+	font-size: 25px;
+	float: right;
+	width: 33.33%;
+	height: 300px;
+	padding-top: 10px;
+}
+.basket{
+	width: 100px;
+	height: 30px;
+}
+.add{
+	width: 100px;
+	height: 30px;
+}
+.email{
+	width: 20px;
+	height: 20px;
+}
+.twitter{
+	width: 20px;
+	height: 20px;
+}
+.facebook{
+	width: 20px;
+	height: 20px;
+}
+.share{
+	width: 20px;
+	height: 20px;
+}
+
+.Paint{
+	background-image: url(images/frame1.gif);
+	float: right;
+	position: center;
+	width: 33.33%;
+	height: 300px;
+	object-position: center;
+	padding-top: 10px;
+}
+.img-1{
+	width: 240px;
+	height: 290px;
+	padding-left: 110px;
+	padding-bottom: 20px;
+}
+.footer{
+	background-image: url(images/frame1.jpg);
+	font-family: Bebas Neue;
+	font-size: 20px;
+}
+  @keyframes basket {
+    100% {
+    	height: 40px;
+   		width:  150px;}
+  }
+ .basket:hover{
+    animation-name: basket;
+    animation-duration: 1000ms;
+  }
+
+  @keyframes add {
+    100% {
+    	height: 40px;
+   		width:  150px;}
+  }
+ .add:hover{
+    animation-name: add;
+    animation-duration: 1000ms;
+  }
+    @keyframes email {
+    100% {
+    	height: 40px;
+   		width:  40px;}
+  }
+ .email:hover{
+    animation-name: email;
+    animation-duration: 1000ms;
+
+  }  @keyframes fb {
+    100% {
+    	height: 40px;
+   		width:  40px;}
+  }
+ .facebook:hover{
+    animation-name: fb;
+    animation-duration: 1000ms;
+  }  
+  @keyframes twitter {
+    100% {
+    	height: 40px;
+   		width:  40px;}
+  }
+ .twitter:hover{
+    animation-name: twitter;
+    animation-duration: 1000ms;
+  }  
+  @keyframes share {
+    100% {
+    	height: 40px;
+   		width:  40px;}
+  }
+ .share:hover{
+    animation-name: share;
+    animation-duration: 1000ms;
+  }
